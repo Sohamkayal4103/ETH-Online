@@ -35,7 +35,7 @@ const SongCard = ({ song }) => {
       <CardFooter>
         <ButtonGroup spacing="2">
           <Link
-            href={`https://localhost:3000/record/${song.songPayload.recordId}`}
+            href={`http://localhost:3000/record/${song.songPayload.recordId}`}
           >
             Listen Now
           </Link>
